@@ -69,12 +69,12 @@
 </div>
 ```
 
-```aura width=150 height=44 link="mailto:anashg85@gmail.com" inline align=center
+```aura width=210 height=44 link="mailto:anashg85@gmail.com" inline align=center
 <SocialMediaButton
-  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-  text="Email Me"
+  icon="https://cdn.simpleicons.org/gmail/ffffff"
+  text="anashg85@gmail.com"
   backgroundColor="#0f0f13"
-  width={150}
+  width={210}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#00ff88' },
@@ -85,7 +85,7 @@
 ```
 ```aura width=150 height=44 link="https://leetcode.com/u/anashg85/" inline align=center
 <SocialMediaButton
-  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  icon="https://cdn.simpleicons.org/leetcode/ffffff"
   text="LeetCode"
   backgroundColor="#0f0f13"
   width={150}
@@ -99,7 +99,7 @@
 ```
 ```aura width=150 height=44 link="https://portfolio-t8rl.vercel.app/" inline align=center
 <SocialMediaButton
-  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  icon="https://cdn.simpleicons.org/vercel/ffffff"
   text="Portfolio"
   backgroundColor="#0f0f13"
   width={150}
