@@ -82,6 +82,7 @@
 
 ```aura width=150 height=44 link="mailto:anashg85@gmail.com" inline align=center
 <SocialMediaButton
+  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
   text="Email Me"
   backgroundColor="#0f0f13"
   width={150}
@@ -95,6 +96,7 @@
 ```
 ```aura width=150 height=44 link="https://github.com/GreyNova" inline align=center
 <SocialMediaButton
+  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
   text="GitHub"
   backgroundColor="#0f0f13"
   width={150}
