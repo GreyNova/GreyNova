@@ -83,17 +83,31 @@
   ]}
 />
 ```
-```aura width=150 height=44 link="https://github.com/GreyNova" inline align=center
+```aura width=150 height=44 link="https://leetcode.com/u/anashg85/" inline align=center
 <SocialMediaButton
   icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-  text="GitHub"
+  text="LeetCode"
   backgroundColor="#0f0f13"
   width={150}
   height={44}
   gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '50%', color: '#888888' },
-    { offset: '100%', color: '#ffffff' },
+    { offset: '0%', color: '#ffa116' },
+    { offset: '50%', color: '#ffb94f' },
+    { offset: '100%', color: '#ffa116' },
+  ]}
+/>
+```
+```aura width=150 height=44 link="https://portfolio-t8rl.vercel.app/" inline align=center
+<SocialMediaButton
+  icon="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  text="Portfolio"
+  backgroundColor="#0f0f13"
+  width={150}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#aa00ff' },
+    { offset: '50%', color: '#e040fb' },
+    { offset: '100%', color: '#aa00ff' },
   ]}
 />
 ```
