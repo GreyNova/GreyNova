@@ -1,10 +1,12 @@
 
 ```aura width=860 height=240 link="https://github.com/GreyNova"
 <div style={{
-  width: '100%', height: '100%', background: '#08080c',
+  width: '100%', height: '100%', 
+  background: 'linear-gradient(145deg, rgba(30, 32, 40, 0.8), rgba(15, 16, 20, 0.9))',
   display: 'flex', alignItems: 'center', fontFamily: 'Inter, sans-serif',
   position: 'relative', overflow: 'hidden', borderRadius: 16,
-  border: '1px solid rgba(0, 255, 136, 0.2)'
+  border: '1px solid rgba(255, 255, 255, 0.1)',
+  boxShadow: 'inset 0 0 20px rgba(255, 255, 255, 0.03)'
 }}>
 
   <style>{`
@@ -113,10 +115,12 @@
 ```
 ```aura width=860 height=240
 <div style={{
-  width: '100%', height: '100%', background: '#0a0a0f',
+  width: '100%', height: '100%', 
+  background: 'linear-gradient(145deg, rgba(30, 32, 40, 0.8), rgba(15, 16, 20, 0.9))',
   display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
   fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
-  borderRadius: 16, border: '1px solid rgba(255,255,255,0.05)'
+  borderRadius: 16, border: '1px solid rgba(255, 255, 255, 0.1)',
+  boxShadow: 'inset 0 0 20px rgba(255, 255, 255, 0.03)'
 }}>
   <style>{`
       @keyframes soft-pulse1 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.6; } }
@@ -144,28 +148,24 @@
   <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, zIndex: 10 }}>
     <span style={{ fontSize: 10, fontWeight: 600, color: 'rgba(120,200,150,0.55)', letterSpacing: '2px', marginBottom: 4 }}>LANGUAGES</span>
     <div style={{ display: 'flex', gap: 10 }}>
-      {['Python', 'TypeScript', 'JavaScript', 'PHP', 'SQL'].map((tech) => (
-        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, color: 'rgba(255,255,255,0.78)', fontSize: 13, fontWeight: 500 }}>{tech}</span>
+      {['Python', 'TypeScript', 'JavaScript', 'Java', 'SQL'].map((tech) => (
+        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 20, color: 'rgba(255,255,255,0.85)', fontSize: 13, fontWeight: 500, boxShadow: 'inset 0 1px 3px rgba(255,255,255,0.05)' }}>{tech}</span>
       ))}
     </div>
     <span style={{ fontSize: 10, fontWeight: 600, color: 'rgba(120,150,255,0.55)', letterSpacing: '2px', marginTop: 6, marginBottom: 4 }}>AI / MACHINE LEARNING</span>
     <div style={{ display: 'flex', gap: 10 }}>
       {['Hugging Face', 'OpenCV', 'TensorFlow', 'Pandas', 'NumPy'].map((tech) => (
-        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, color: 'rgba(255,255,255,0.78)', fontSize: 13, fontWeight: 500 }}>{tech}</span>
+        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 20, color: 'rgba(255,255,255,0.85)', fontSize: 13, fontWeight: 500, boxShadow: 'inset 0 1px 3px rgba(255,255,255,0.05)' }}>{tech}</span>
       ))}
     </div>
     <span style={{ fontSize: 10, fontWeight: 600, color: 'rgba(180,120,255,0.55)', letterSpacing: '2px', marginTop: 6, marginBottom: 4 }}>WEB & TOOLS</span>
     <div style={{ display: 'flex', gap: 10 }}>
-      {['React', 'Node.js', 'FastAPI', 'Solidity', 'Git', 'Docker'].map((tech) => (
-        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, color: 'rgba(255,255,255,0.78)', fontSize: 13, fontWeight: 500 }}>{tech}</span>
+      {['React', 'Node.js', 'SpringBoot', 'FastAPI', 'Solidity', 'Git', 'Docker'].map((tech) => (
+        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 20, color: 'rgba(255,255,255,0.85)', fontSize: 13, fontWeight: 500, boxShadow: 'inset 0 1px 3px rgba(255,255,255,0.05)' }}>{tech}</span>
       ))}
     </div>
   </div>
 </div>
 ```
 
-```aura width=860 height=22 link="https://github.com/GreyNova"
-  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100%', padding: 0, margin: 0 }}>
-    <span style={{ fontSize: 12, lineHeight: 1, color: 'rgba(150,140,200,0.55)', fontWeight: 500, letterSpacing: '0.4px' }}>powered by readme-aura</span>
-  </div>
-```
+
