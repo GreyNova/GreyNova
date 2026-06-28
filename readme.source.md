@@ -65,17 +65,6 @@
     <div style={{ display:'flex', fontSize:16, color:'rgba(255,255,255,0.7)', fontWeight:400, letterSpacing:'0.3px', marginTop: 4 }}>
       Full Stack Developer • AI/ML Enthusiast • Open Source Contributor
     </div>
-    <div style={{ display:'flex', gap:8, marginTop:12, flexWrap: 'wrap' }}>
-      {['JavaScript', 'TypeScript', 'Python', 'React', 'Jupyter', 'CSS'].map(function(tag, i) {
-        return (
-          <div key={tag} style={{
-            display:'flex', padding:'6px 14px', borderRadius:20,
-            background:'rgba(0, 255, 136, 0.1)', border:'1px solid rgba(0, 255, 136, 0.3)',
-            color:'#00ff88', fontSize:12, fontWeight:600,
-          }}>{tag}</div>
-        );
-      })}
-    </div>
   </div>
 </div>
 ```
@@ -107,6 +96,50 @@
     { offset: '100%', color: '#ffffff' },
   ]}
 />
+```
+```aura width=860 height=180
+<div style={{
+  width: '100%', height: '100%', background: '#0a0a0f',
+  display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+  fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden',
+  borderRadius: 16, border: '1px solid rgba(255,255,255,0.05)'
+}}>
+  <style>{`
+      @keyframes soft-pulse1 { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.6; } }
+      @keyframes soft-pulse2 { 0%, 100% { opacity: 0.2; } 50% { opacity: 0.5; } }
+      #bg-glow-1 { animation: soft-pulse1 6s ease-in-out infinite; }
+      #bg-glow-2 { animation: soft-pulse2 8s ease-in-out infinite 2s; }
+  `}</style>
+  <svg width="860" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="stack-g1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80, 200, 120, 0.25)" />
+        <stop offset="100%" stopColor="rgba(80, 200, 120, 0)" />
+      </radialGradient>
+      <radialGradient id="stack-g2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(60, 130, 255, 0.2)" />
+        <stop offset="100%" stopColor="rgba(60, 130, 255, 0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="bg-glow-1" cx="150" cy="180" rx="300" ry="150" fill="url(#stack-g1)" />
+    <ellipse id="bg-glow-2" cx="700" cy="180" rx="300" ry="150" fill="url(#stack-g2)" />
+  </svg>
+  
+  <span style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.4)', letterSpacing: '4px', marginBottom: 16, zIndex: 10 }}>STACK</span>
+  
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12, zIndex: 10 }}>
+    <div style={{ display: 'flex', gap: 10 }}>
+      {['TypeScript', 'React', 'Node.js', 'Rust', 'Go', 'PostgreSQL', 'Docker'].map((tech) => (
+        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, color: 'rgba(255,255,255,0.75)', fontSize: 13, fontWeight: 500 }}>{tech}</span>
+      ))}
+    </div>
+    <div style={{ display: 'flex', gap: 10 }}>
+      {['Figma', 'SVG', 'CSS'].map((tech) => (
+        <span key={tech} style={{ padding: '6px 16px', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, color: 'rgba(255,255,255,0.75)', fontSize: 13, fontWeight: 500 }}>{tech}</span>
+      ))}
+    </div>
+  </div>
+</div>
 ```
 
 ```aura width=860 height=22 link="https://github.com/GreyNova"
