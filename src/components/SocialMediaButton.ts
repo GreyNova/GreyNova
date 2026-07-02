@@ -6,7 +6,7 @@ interface GradientStop {
 }
 
 interface SocialMediaButtonProps {
-  icon: string;
+  icon?: string;
   text: string;
   backgroundColor?: string;
   textColor?: string;
@@ -163,13 +163,13 @@ export function makeSocialMediaButton(h: H) {
             boxSizing: 'border-box',
           },
         },
-        h('img', {
+        icon ? h('img', {
           src: icon,
           width: iconSize,
           height: iconSize,
           alt: '',
           style: { flexShrink: 0, display: 'block', width: iconSize, height: iconSize },
-        }),
+        }) : null,
         h(
           'span',
           {
