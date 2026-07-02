@@ -73,7 +73,7 @@
 
 ```aura width=150 height=44 link="https://mail.google.com/mail/?view=cm&fs=1&to=anashg85@gmail.com&su=Hello%20Anash" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/ffffff"
+  icon="https://raw.githubusercontent.com/GreyNova/GreyNova/main/assets/Gmail-logo-design-on-transparent-background-PNG.png"
   text="Email"
   backgroundColor="#0f0f13"
   width={150}
@@ -87,7 +87,7 @@
 ```
 ```aura width=150 height=44 link="https://leetcode.com/u/anashg85/" inline align=center
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/leetcode/ffffff"
+  icon="https://raw.githubusercontent.com/GreyNova/GreyNova/main/assets/LeetCode.png"
   text="LeetCode"
   backgroundColor="#0f0f13"
   width={150}
