@@ -71,12 +71,12 @@
 </div>
 ```
 
-```aura width=150 height=44 link="https://mail.google.com/mail/?view=cm&fs=1&to=anashg85@gmail.com&su=Hello%20Anash" inline align=center
+```aura width=130 height=40 link="https://mail.google.com/mail/?view=cm&fs=1&to=anashg85@gmail.com&su=Hello%20Anash" inline align=center
 <SocialMediaButton
   text="Email"
   backgroundColor="#0f0f13"
-  width={150}
-  height={44}
+  width={130}
+  height={40}
   gradientStops={[
     { offset: '0%', color: '#00ff88' },
     { offset: '50%', color: '#00c3ff' },
@@ -84,12 +84,12 @@
   ]}
 />
 ```
-```aura width=150 height=44 link="https://leetcode.com/u/anashg85/" inline align=center
+```aura width=130 height=40 link="https://leetcode.com/u/anashg85/" inline align=center
 <SocialMediaButton
   text="LeetCode"
   backgroundColor="#0f0f13"
-  width={150}
-  height={44}
+  width={130}
+  height={40}
   gradientStops={[
     { offset: '0%', color: '#ffa116' },
     { offset: '50%', color: '#ffb94f' },
@@ -97,12 +97,25 @@
   ]}
 />
 ```
-```aura width=150 height=44 link="https://portfolio-t8rl.vercel.app/" inline align=center
+```aura width=130 height=40 link="https://www.linkedin.com/in/anash-g08a10419/" inline align=center
+<SocialMediaButton
+  text="LinkedIn"
+  backgroundColor="#0f0f13"
+  width={130}
+  height={40}
+  gradientStops={[
+    { offset: '0%', color: '#0077b5' },
+    { offset: '50%', color: '#00bfff' },
+    { offset: '100%', color: '#0077b5' },
+  ]}
+/>
+```
+```aura width=130 height=40 link="https://portfolio-t8rl.vercel.app/" inline align=center
 <SocialMediaButton
   text="Portfolio"
   backgroundColor="#0f0f13"
-  width={150}
-  height={44}
+  width={130}
+  height={40}
   gradientStops={[
     { offset: '0%', color: '#aa00ff' },
     { offset: '50%', color: '#e040fb' },
